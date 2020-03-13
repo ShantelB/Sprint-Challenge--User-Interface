@@ -1,0 +1,8 @@
+* {
+    box-sizing: border-box;
+}
+.big-picture2 {
+    display:flex;
+    align-content: center;
+    padding-left: 356px;
+}

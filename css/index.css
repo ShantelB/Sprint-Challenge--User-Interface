@@ -170,3 +170,7 @@ header nav button {
     background-color: teal;
 }
 
+.big-container2 {
+    display: flex;
+    padding-left: 357px;
+}
