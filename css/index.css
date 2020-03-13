@@ -284,15 +284,57 @@ header nav button {
 
     
 
-#column>* {
-    display: flex;
-    flex-flow: row wrap;
-    flex:1 1 100%;
+#column {
+ /*   display: flex;
+   align-content: center;
+    flex-direction: center;
+    justify-content: space-evenly;
+    max-width: auto;
+    flex-flow: wrap;*/
+
+    position: relative;
+    column-count: 2;
+    column-fill: balance;
+    padding-top: 30px;
+    column-span: all;  
+}
+
+.about {
+    border-bottom: 2px dotted black;
+    padding-bottom: 20px;
+}
+
+    .strategy {
+
+        padding-bottom: 18px;
+        padding-top: 18px;
+        border-bottom: 2px dotted black
+    }
+
+   
+
+    .how {
+        padding-bottom: 18px;
+        padding-top: 18px;
+        border-bottom: 2px dotted black
+    }
+
+.places {
+    padding-bottom: 18px;
+        padding-top: 18px; 
+        border-bottom: 2px dotted black   
+}
+
+.collaboration {
+    padding-bottom: 18px;
+    padding-top: 18px; 
+    border-bottom: 2px dotted black  
 }
 
 .together {
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+   
 }
 
 /*1. If you were to describe semantic HTML to the next cohort of students, what would you say?
@@ -301,11 +343,18 @@ It gives meaning to your page. Like section, address, p,
 
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
 
-display:block; is and entire block and gives you breaks and spaces in between elements. display:inline; m 
+display:block; is and entire block and gives you breaks and spaces in between elements. display:inline; displays inside the block and doesn't have any breaks between elements. 
 
 3. What are the 4 areas of the box model?
 
+Margin, Padding, Border, Content
+
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
 
+It works on the Y axis
+
 5. Explain why git is valuable to a team of developers.
+
+git allows several people to work on one project at the same time on different branches. It also allows you to go back to a file that was saved earlier.
+
 */
