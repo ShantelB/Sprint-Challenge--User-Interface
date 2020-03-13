@@ -164,10 +164,9 @@ header nav button {
     align-items: center;
     justify-content: space-between;
     width: 12.5%;
-    height: 100px;*/
+    height: 100px;}*/
     
-}
-.boxes .box {
+.boxes :first-child {
     background-color: teal;
 }
 
