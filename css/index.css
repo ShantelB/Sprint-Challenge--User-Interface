@@ -157,3 +157,17 @@ header nav button {
     background-color: white;
     border: none;
 }
+/*.boxes {
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 12.5%;
+    height: 100px;*/
+    
+}
+.boxes .box {
+    background-color: teal;
+}
+
