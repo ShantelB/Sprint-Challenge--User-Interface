@@ -144,3 +144,226 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+header nav {
+    display: flex;
+    justify-content: space-evenly;
+    width:85%;
+    margin:20px 0px 18px 257px;
+    padding: 0px 323px 36px 36px;
+}
+
+header nav button {
+    background-color: white;
+    border: none;
+}
+/*.boxes {
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 12.5%;
+    height: 100px;}*/
+    
+    .boxes #box1{
+        background-color: teal;
+        margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 12.5%;
+    height: 100px;
+    }
+    
+    .boxes #box2 {
+        background-color: gold;
+        margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 12.5%;
+    height: 100px;
+    }
+    
+    .boxes #box3 {
+    background-color: cadetblue ;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    width: 12.5%;
+    height: 100px;
+    }
+    
+    .boxes #box4 {
+        background-color :coral ;
+        margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 12.5%;
+    height: 100px;
+        }
+    
+    .boxes #box5 {
+        background-color: crimson;
+        margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 12.5%;
+    height: 100px;
+        }
+    
+    .boxes #box6 {
+        background-color: forestgreen;
+        margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 12.5%;
+    height: 100px;
+        }
+    
+    .boxes #box7 {
+        background-color: darkorchid;
+        margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 12.5%;
+    height: 100px;
+        }
+    
+    .boxes #box8 {
+        background-color: hotpink;
+        margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 12.5%;
+    height: 100px;
+        }
+    
+    .boxes #box9 {
+        background-color: indigo;
+        margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 12.5%;
+    height: 100px;
+        }
+    
+    .boxes #box10 {
+        background-color: dodgerblue;
+        margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 12.5%;
+    height: 100px;
+
+         }
+
+.big-picture2 {
+    display: flex;
+    padding:0px 0px 23px 357px;
+}
+
+    
+
+#column {
+ /*   display: flex;
+   align-content: center;
+    flex-direction: center;
+    justify-content: space-evenly;
+    max-width: auto;
+    flex-flow: wrap;*/
+
+    position: relative;
+    column-count: 2;
+    column-fill: balance;
+    padding-top: 30px;
+    column-span: all;  
+}
+
+.about {
+    border-bottom: 2px dotted black;
+    padding-bottom: 20px;
+}
+
+    .strategy {
+
+        padding-bottom: 18px;
+        padding-top: 18px;
+        border-bottom: 2px dotted black
+    }
+
+   
+
+    .how {
+        padding-bottom: 18px;
+        padding-top: 18px;
+        border-bottom: 2px dotted black
+    }
+
+.places {
+    padding-bottom: 18px;
+        padding-top: 18px; 
+        border-bottom: 2px dotted black   
+}
+
+.collaboration {
+    padding-bottom: 18px;
+    padding-top: 18px; 
+    border-bottom: 2px dotted black  
+}
+
+.together {
+    padding-top: 50px;
+    padding-bottom: 50px;
+   
+}
+.learnmore {
+    border-radius: 4px;
+    border:2px solid black;
+    background-color: white;
+    width: 100px;
+    color: black;
+}
+
+
+
+/*1. If you were to describe semantic HTML to the next cohort of students, what would you say?
+
+It gives meaning to your page. Like section, address, p,
+
+2. Name two big differences between ```display: block;``` and ```display: inline;```.
+
+display:block; is and entire block and gives you breaks and spaces in between elements. display:inline; displays inside the block and doesn't have any breaks between elements. 
+
+3. What are the 4 areas of the box model?
+
+Margin, Padding, Border, Content
+
+4. While using flexbox, what axis does the following property work on: ```align-items: center```?
+
+It works on the Y axis
+
+5. Explain why git is valuable to a team of developers.
+
+git allows several people to work on one project at the same time on different branches. It also allows you to go back to a file that was saved earlier.
+
+*/
